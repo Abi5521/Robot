@@ -1,0 +1,228 @@
+.upper{
+    position: relative;
+    height: 110px;
+    width: 190px;
+    background: orange;
+    margin-top: 100px;
+    margin-left: 170px;
+    border-radius: 120px 120px 17px 17px ;
+    animation: moveface 2.5s infinite;
+}
+@keyframes moveface {
+    0%{
+        width: 150px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 150px;
+    }
+}
+.eye1{
+    height: 35px;
+    width: 35px;
+    background: brown;
+    position: absolute;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    animation: moveeyes 2.5s infinite;
+}
+@keyframes moveeyes {
+    0%{
+        transform: rotate(-45deg);
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(-45deg);
+        transform-origin: top;
+    }
+}
+.eye2{
+    height: 35px;
+    width: 35px;
+    background: brown;
+    position: absolute;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    animation: moveeyes 2.5s infinite;
+}
+.h1{
+    height: 55px;
+    width: 30px;
+    background: silver;
+    position: absolute;
+    border-radius: 0px 0px 0px 50px;
+    margin-top: 27px;
+    margin-left: 160px;
+    animation: moveh1 1.5s infinite;
+}
+@keyframes moveh1 {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    25%{
+        transform: rotate(25deg);
+        transform-origin: top center;
+    }
+    50%{
+        transform: rotate(55deg);
+        transform-origin: top center;
+    }
+    75%{
+        transform: rotate(25deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+}
+.h2{
+    height: 55px;
+    width: 30px;
+    background: silver;
+    position: absolute;
+    border-radius: 0px 0px 50px 0px;
+    margin-top: 27px;
+    margin-left: 343px;
+    animation: moveh2 1.5s infinite;
+}
+@keyframes moveh2 {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    25%{
+        transform: rotate(-25deg);
+        transform-origin: top center;
+    }
+    50%{
+        transform: rotate(-55deg);
+        transform-origin: top center;
+    }
+    75%{
+        transform: rotate(-25deg);
+        transform-origin: top center;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+}
+.neck{
+    height: 11px;
+    width: 90px;
+    background: orangered;
+    position: absolute;
+    left: 220px;
+    margin-top: 2px;
+}
+.b1{
+    height: 75px;
+    width: 145px;
+    background: orange;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 193px;
+    border-radius: 8px;
+    animation: moveb1 2.8s infinite;
+}
+@keyframes moveb1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.b2{
+    height: 35px;
+    width: 100px;
+    background: cadetblue;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 213px;
+    border: 4px solid saddlebrown;
+    border-radius: 8px;
+    animation: moveb2 2.8s infinite;
+}
+@keyframes moveb2 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.leg1{
+    height: 55px;
+    width: 35px;
+    position: absolute;
+    background: silver;
+    margin-top: 90px;
+    margin-left: 225px;
+    border-radius: 0 0 50px 50px;
+    animation: moveleg1 1.5s infinite;
+}
+@keyframes moveleg1 {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    /* 25%{
+        transform: rotate(20deg);
+        transform-origin: top center;
+    } */
+    50%{
+        transform: rotate(25deg);
+        transform-origin: top center;
+    }
+    /* 75%{
+        transform: rotate(40deg);
+        transform-origin: top center;
+    } */
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+}
+.leg2{
+    height: 55px;
+    width: 35px;
+    background: silver;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 270px;
+    border-radius: 0 0 50px 50px;
+    animation: moveleg2 1.5s infinite;
+}
+@keyframes moveleg2 {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+    /* 25%{
+        transform: rotate(40deg);
+        transform-origin: top center;
+    } */
+    50%{
+        transform: rotate(-25deg);
+        transform-origin: top center;
+    }
+    /* 75%{
+        transform: rotate(40deg);
+        transform-origin: top center;
+    } */
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top center;
+    }
+}
